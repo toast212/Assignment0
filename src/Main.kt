@@ -22,15 +22,15 @@ fun main() {
     //Set the circle dimensions
     (myCircle as Circle).setDimensions(radius)
 
-    println("Enter triangle width: ")
-    var width:Int = reader.nextInt()
-    println("Enter triangle height: ")
-    height = reader.nextInt()
-    println("Enter triangle length: ")
-    length = reader.nextInt()
+    println("Enter triangle side 1: ")
+    var side1:Int = reader.nextInt()
+    println("Enter triangle side 2: ")
+    var side2 = reader.nextInt()
+    println("Enter triangle side 3: ")
+    var side3 = reader.nextInt()
 
     //Set the triangle dimensions
-    (myTriangle as Triangle).setDimensions(width, height, length)
+    (myTriangle as Triangle).setDimensions(side1, side2, side3)
 
     println("Enter equilateral triangle size: ")
     var size:Int = reader.nextInt()
